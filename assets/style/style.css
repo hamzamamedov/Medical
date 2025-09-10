@@ -1,0 +1,102 @@
+.bg-blue {
+  background-color: #6bc2f1 !important;
+}
+.bg-footer{
+  background-color: #072035;
+}
+.text-blue {
+  color: #6bc2f1;
+}
+
+.bg-grey {
+  background-color: #f1f1f1;
+}
+.btn.bg-blue:hover {
+  background-color: rgb(47, 47, 255) !important;
+}
+.vh-50 {
+  min-height: 50vh;
+}
+header {
+  background: url(../img/headerbg.jpg) 50% 50% / cover;
+}
+#doctor {
+  max-width: 440px;
+}
+#surgeons {
+  background: url(../img/surgeons.jpg) center/cover;
+}
+#children {
+  background: url(../img/children.jpg) center/cover;
+}
+#surgeons:hover a {
+  display: inline !important;
+}
+#surgeons:hover {
+  opacity: 0.5;
+}
+/* CARUSEL */
+#carouselExampleCaptions {
+  .carousel-indicators button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    background: url(../img/s2.png) center/cover no-repeat;
+    &.active {
+      scale: 1.3;
+    }
+  }
+}
+.carousel-item {
+  height: 50vh;
+}
+
+.carousel-caption {
+  bottom: 10rem !important;
+}
+.carousel-control-prev {
+  top: 80% !important;
+}
+.carousel-control-next {
+  top: 80% !important;
+}
+
+@media (min-width: 768px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 40%;
+  }
+}
+
+#form{
+max-width: 350px;
+width: 100%;
+margin: 50px 0;
+input{
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  border: none;
+  box-shadow: 0 0 3px black;
+  border-radius: 5px;
+  &:focus{
+    box-shadow: inset 0 0 8px black;
+    border: none;
+  }
+}
+textarea{
+  width: 100%;
+  resize: none;
+  outline: none;
+  padding: 10px;
+  border: none;
+  box-shadow: 0 0 3px black;
+  border-radius: 5px;
+  &:focus{
+    box-shadow: inset 0 0 5px black;
+    border: none;
+  }
+}
+}
